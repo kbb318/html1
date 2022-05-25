@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+    /*필요없는 기본 스타일을 날려버리자 css reset*/
+    * {            padding: 0;
+        margin: 0;
+
+
+
+    }
+    div{
+        /*box model
+            박스의 너비 계산
+            -content-box : 내용이 너비
+            -border-box: 내용+패딩+보더까지가 너비
+        */
+   
+width: 300px;
+background-color: red;
+margin-bottom: 20px;
+box-sizing:border-box;
+
+}
+
+    #first{
+padding: 30px;
+
+    }
+
+</style>
+
+</head>
+<body>
+<div id="first">A</div>
+<div id="seconde">B</div>
+</body>
+
+</html>
